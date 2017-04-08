@@ -1,0 +1,76 @@
+D:\Project\VB\School Management\School Management\bin\x86\Debug\School Management.exe.config
+D:\Project\VB\School Management\School Management\bin\x86\Debug\School Management.exe.manifest
+D:\Project\VB\School Management\School Management\bin\x86\Debug\School Management.application
+D:\Project\VB\School Management\School Management\bin\x86\Debug\School Management.exe
+D:\Project\VB\School Management\School Management\bin\x86\Debug\School Management.pdb
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.addTeacher.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.accountMenu.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.apply_fee.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.add_a_exam.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.exam.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.FirstRun.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.about.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.account.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.editRutine.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.fee_history.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.fee_payment.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.Login.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.newStudent.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.MainPage.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.setting.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.student.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.student_bio.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.student_list.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.teacher.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.timeTable.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.list_of_exam.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.make_a_marksheet.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.money_recipt.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.new_fee_type.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.payToTeacher.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.getAdmNo.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.Properties.Resources.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.report_card.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.send_money_to_bank.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.teacherMenu.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.timeTableMenu.resources
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School Management.csproj.GenerateResource.Cache
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School Management.exe.manifest
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School Management.application
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School Management.exe
+D:\Project\VB\School Management\School Management\obj\x86\Debug\School Management.pdb
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School Management.csprojResolveAssemblyReference.cache
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.addTeacher.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.accountMenu.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.apply_fee.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.add_a_exam.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.exam.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.FirstRun.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.about.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.account.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.editRutine.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.fee_history.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.fee_payment.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.Login.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.newStudent.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.MainPage.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.setting.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.student.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.student_bio.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.student_list.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.teacher.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.timeTable.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.list_of_exam.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.make_a_marksheet.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.money_recipt.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.new_fee_type.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.payToTeacher.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.getAdmNo.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.Properties.Resources.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.report_card.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.send_money_to_bank.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.teacherMenu.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School_Management.timeTableMenu.resources
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School Management.csproj.GenerateResource.Cache
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School Management.exe
+E:\Project\VB\School Management\School Management\obj\x86\Debug\School Management.pdb

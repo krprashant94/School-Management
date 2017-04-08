@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BE02F4A2-513E-49D7-BCD9-9FFA7BEAD5B3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>School_Management</RootNamespace>
+    <AssemblyName>School Management</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <SupportUrl>https://redmorus.com/SchoolManagement/support.html</SupportUrl>
+    <ErrorReportUrl>https://redmorus.com/SchoolManagement/error.html</ErrorReportUrl>
+    <TargetCulture>en-IN</TargetCulture>
+    <ProductName>School Management</ProductName>
+    <PublisherName>Redmorus Developer</PublisherName>
+    <SuiteName>Redmorus Developer</SuiteName>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>16</ApplicationRevision>
+    <ApplicationVersion>2.1.6.16</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>A260E82C2CCB53A710D184149C13B5EBD9148E8C</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>School Management_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>School_Management.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationIcon>school_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form\addTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\addTeacher.Designer.cs">
+      <DependentUpon>addTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\accountMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\accountMenu.Designer.cs">
+      <DependentUpon>accountMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\apply_fee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\apply_fee.Designer.cs">
+      <DependentUpon>apply_fee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\add_a_exam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\add_a_exam.Designer.cs">
+      <DependentUpon>add_a_exam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\setting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\setting.Designer.cs">
+      <DependentUpon>setting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\list_of_exam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\list_of_exam.Designer.cs">
+      <DependentUpon>list_of_exam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\make_a_marksheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\make_a_marksheet.Designer.cs">
+      <DependentUpon>make_a_marksheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\money_recipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\money_recipt.Designer.cs">
+      <DependentUpon>money_recipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\new_fee_type.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\new_fee_type.Designer.cs">
+      <DependentUpon>new_fee_type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\payToTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\payToTeacher.Designer.cs">
+      <DependentUpon>payToTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\getAdmNo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\getAdmNo.Designer.cs">
+      <DependentUpon>getAdmNo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintFormetter.cs" />
+    <Compile Include="Encryption.cs" />
+    <Compile Include="Form\exam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\exam.Designer.cs">
+      <DependentUpon>exam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FirstRun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FirstRun.Designer.cs">
+      <DependentUpon>FirstRun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fee_history.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fee_history.Designer.cs">
+      <DependentUpon>fee_history.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fee_payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fee_payment.Designer.cs">
+      <DependentUpon>fee_payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\editRutine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\editRutine.Designer.cs">
+      <DependentUpon>editRutine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\about.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\about.Designer.cs">
+      <DependentUpon>about.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\account.Designer.cs">
+      <DependentUpon>account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Db.cs" />
+    <Compile Include="Form\newStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\newStudent.Designer.cs">
+      <DependentUpon>newStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\MainPage.Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Regedit.cs" />
+    <Compile Include="Form\student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\student.Designer.cs">
+      <DependentUpon>student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\teacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\teacher.Designer.cs">
+      <DependentUpon>teacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\timeTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\timeTable.Designer.cs">
+      <DependentUpon>timeTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\student_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\student_list.Designer.cs">
+      <DependentUpon>student_list.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\student_bio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\student_bio.Designer.cs">
+      <DependentUpon>student_bio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\report_card.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\report_card.Designer.cs">
+      <DependentUpon>report_card.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\send_money_to_bank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\send_money_to_bank.Designer.cs">
+      <DependentUpon>send_money_to_bank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="Form\teacherMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\teacherMenu.Designer.cs">
+      <DependentUpon>teacherMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\timeTableMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\timeTableMenu.Designer.cs">
+      <DependentUpon>timeTableMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TheamPack.cs" />
+    <EmbeddedResource Include="Form\addTeacher.resx">
+      <DependentUpon>addTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\accountMenu.resx">
+      <DependentUpon>accountMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\apply_fee.resx">
+      <DependentUpon>apply_fee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\add_a_exam.resx">
+      <DependentUpon>add_a_exam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\exam.resx">
+      <DependentUpon>exam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FirstRun.resx">
+      <DependentUpon>FirstRun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\about.resx">
+      <DependentUpon>about.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\account.resx">
+      <DependentUpon>account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\editRutine.resx">
+      <DependentUpon>editRutine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fee_history.resx">
+      <DependentUpon>fee_history.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fee_payment.resx">
+      <DependentUpon>fee_payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\newStudent.resx">
+      <DependentUpon>newStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\setting.resx">
+      <DependentUpon>setting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\student.resx">
+      <DependentUpon>student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\student_bio.resx">
+      <DependentUpon>student_bio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\student_list.resx">
+      <DependentUpon>student_list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\teacher.resx">
+      <DependentUpon>teacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\timeTable.resx">
+      <DependentUpon>timeTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\list_of_exam.resx">
+      <DependentUpon>list_of_exam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\make_a_marksheet.resx">
+      <DependentUpon>make_a_marksheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\money_recipt.resx">
+      <DependentUpon>money_recipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\new_fee_type.resx">
+      <DependentUpon>new_fee_type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\payToTeacher.resx">
+      <DependentUpon>payToTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\getAdmNo.resx">
+      <DependentUpon>getAdmNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\report_card.resx">
+      <DependentUpon>report_card.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\send_money_to_bank.resx">
+      <DependentUpon>send_money_to_bank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\teacherMenu.resx">
+      <DependentUpon>teacherMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\timeTableMenu.resx">
+      <DependentUpon>timeTableMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="School Management_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\my_image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_form.jpg" />
+    <None Include="Resources\orange_button.png" />
+    <Content Include="school_icon.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
